@@ -37,8 +37,7 @@ A modern, responsive personal website built with Gatsby.js, featuring a sleek de
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/MrSolution07cesarolvr-www.git
-   cd cesarolvr-www
+   i will put later
    ```
 
 2. Install dependencies:
