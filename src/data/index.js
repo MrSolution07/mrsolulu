@@ -11,7 +11,7 @@ import { FiMail } from "@react-icons/all-files/fi/FiMail";
 import { FiCoffee } from "@react-icons/all-files/fi/FiCoffee";
 
 // Files
-import cesarolvrCV from "../files/cesar-oliveira-resume.pdf";
+import MrSoluluCV from "../files/cesar-oliveira-resume.pdf";
 
 const bioDescription = `A decade of experience as a Software Engineer (Front-end focused), working on
 large-scale and high-impact projects for digital companies, where
@@ -70,7 +70,7 @@ const academyPath = [
 const openSourcePath = [
   {
     role: "My Github",
-    link: `https://github.com/cesarolvr`,
+    link: `https://github.com/MrSolulu`,
   },
 ];
 
@@ -116,13 +116,13 @@ const quickActionList = [
     text: "Download CV",
     nick: "d",
     icon: <FiDownload />,
-    target: cesarolvrCV,
+    target: MrSoluluCV,
   },
   {
     text: "Know my career",
     nick: "k",
     icon: <FiAward />,
-    target: "https://www.linkedin.com/in/cesarolvr/",
+    target: "https://www.linkedin.com/in/MrSolulu/",
   },
   {
     text: "See my github",
@@ -146,19 +146,19 @@ const quickActionList = [
     text: "Follow me on instagram",
     nick: "g",
     icon: <FiInstagram />,
-    target: "https://www.instagram.com/cesarolvr/",
+    target: "https://www.instagram.com/MrSolulu/",
   },
   {
     text: "See my current readings",
     nick: "r",
     icon: <FiBook />,
-    target: "https://goodreads.com/cesarolvr",
+    target: "https://goodreads.com/MrSolulu",
   },
   {
     text: "View source code",
     nick: "r",
     icon: <FiCoffee />,
-    target: "https://github.com/MrSolution07cesarolvr-www",
+    target: "https://github.com/MrSolution07MrSolulu-www",
   },
 ];
 

@@ -131,5 +131,5 @@ const Post = () => {
 export default Post;
 
 export const Head = () => (
-  <title>002. First Contact with Programming | cesarolvr</title>
+  <title>002. First Contact with Programming | MrSolulu</title>
 );

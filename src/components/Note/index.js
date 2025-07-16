@@ -10,7 +10,7 @@ const Footer = () => {
   return (
     <div className="note">
       {/* <p>if you want a website like this one, let me know here 👉🏾 </p> */}
-      <p>All rights not reserved. Do you want a website like this? <a href="https://github.com/MrSolution07cesarolvr-www" target="_blank">Just copy it</a> 👍🏾</p>
+      <p>All rights not reserved. Do you want a website like this? <a href="https://github.com/MrSolution07MrSolulu-www" target="_blank">Just copy it</a> 👍🏾</p>
     </div>
   );
 };

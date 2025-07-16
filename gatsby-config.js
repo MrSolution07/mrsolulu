@@ -3,7 +3,7 @@
  */
 module.exports = {
   siteMetadata: {
-    title: `cesarolvr`,
+    title: `MrSolulu`,
     siteUrl: `https://www.www.solutionincorporate.com`,
   },
   plugins: [
@@ -43,7 +43,7 @@ module.exports = {
       resolve: `gatsby-plugin-manifest`,
       options: {
         name: "www.solutionincorporate.com",
-        short_name: "cesarolvr",
+        short_name: "MrSolulu",
         start_url: "/",
         background_color: "#222222",
         theme_color: "#222222",

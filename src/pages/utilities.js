@@ -8,7 +8,7 @@ import Loader from "../components/Loader";
 import Cursor from "../components/Cursor";
 
 // Files
-import cesarolvrCV from "../files/cesar-oliveira-resume.pdf";
+import MrSoluluCV from "../files/cesar-oliveira-resume.pdf";
 
 // Styles
 import "../styles/global.scss";
@@ -36,7 +36,7 @@ const Actions = () => {
               <li>
                 <a
                   className="hover:text-[var(--tw-text-gray-primary)]"
-                  href={cesarolvrCV}
+                  href={MrSoluluCV}
                   download={true}
                   target="_blank"
                 >
@@ -50,7 +50,7 @@ const Actions = () => {
               </li>
               <li>
                 <a
-                  href="https://www.linkedin.com/in/cesarolvr/"
+                  href="https://www.linkedin.com/in/MrSolulu/"
                   target="_blank"
                   className="hover:text-[var(--tw-text-gray-primary)]"
                 >
@@ -100,7 +100,7 @@ const Actions = () => {
               </li>
               <li>
                 <a
-                  href="https://codepen.io/cesarolvr/"
+                  href="https://codepen.io/MrSolulu/"
                   target="_blank"
                   className="hover:text-[var(--tw-text-gray-primary)]"
                 >
@@ -114,7 +114,7 @@ const Actions = () => {
               </li>
               <li>
                 <a
-                  href="https://leetcode.com/u/cesarolvr/"
+                  href="https://leetcode.com/u/MrSolulu/"
                   target="_blank"
                   className="hover:text-[var(--tw-text-gray-primary)]"
                 >
@@ -142,7 +142,7 @@ const Actions = () => {
               </li>
               <li>
                 <a
-                  href="https://www.instagram.com/cesarolvr/"
+                  href="https://www.instagram.com/MrSolulu/"
                   target="_blank"
                   className="hover:text-[var(--tw-text-gray-primary)]"
                 >
@@ -164,7 +164,7 @@ const Actions = () => {
               </li>
               <li>
                 <a
-                  href="https://goodreads.com/cesarolvr"
+                  href="https://goodreads.com/MrSolulu"
                   target="_blank"
                   className="hover:text-[var(--tw-text-gray-primary)]"
                 >
@@ -186,7 +186,7 @@ const Actions = () => {
               </li>
               <li>
                 <a
-                  href="https://github.com/MrSolution07cesarolvr-www"
+                  href="https://github.com/MrSolution07MrSolulu-www"
                   target="_blank"
                   className="hover:text-[var(--tw-text-gray-primary)]"
                 >
@@ -221,4 +221,4 @@ const Actions = () => {
 
 export default Actions;
 
-export const Head = () => <title>Utilities | cesarolvr</title>;
+export const Head = () => <title>Utilities | MrSolulu</title>;

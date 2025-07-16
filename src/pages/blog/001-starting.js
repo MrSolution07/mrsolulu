@@ -97,4 +97,4 @@ const Post = () => {
 
 export default Post;
 
-export const Head = () => <title>001. Starting... | cesarolvr</title>;
+export const Head = () => <title>001. Starting... | MrSolulu</title>;

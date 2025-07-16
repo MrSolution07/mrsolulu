@@ -163,4 +163,4 @@ const Post = () => {
 
 export default Post;
 
-export const Head = () => <title>004. Go fot it anyway | cesarolvr</title>;
+export const Head = () => <title>004. Go fot it anyway | MrSolulu</title>;

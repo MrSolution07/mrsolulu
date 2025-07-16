@@ -231,5 +231,5 @@ print(person.name)`}
 export default Post;
 
 export const Head = () => (
-  <title>005. Why (not) start with Java? | cesarolvr</title>
+  <title>005. Why (not) start with Java? | MrSolulu</title>
 );

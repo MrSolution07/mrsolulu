@@ -10,7 +10,7 @@ import { FiCopy } from "@react-icons/all-files/fi/FiCopy";
 import { FiDownload } from "@react-icons/all-files/fi/FiDownload";
 
 // Files
-import cesarolvrCV from "../files/cesar-oliveira-resume.pdf";
+import MrSoluluCV from "../files/cesar-oliveira-resume.pdf";
 
 // Context
 import { State } from "../components/Layout";
@@ -42,7 +42,7 @@ const panelMap = (index) => {
           Check out my{" "}
           <a
             className="underline text-[var(--tw-text-gray-primary)] font-bold"
-            href="https://www.linkedin.com/in/cesarolvr/#experience"
+            href="https://www.linkedin.com/in/MrSolulu/#experience"
           >
             LinkedIn experience section
           </a>{" "}
@@ -194,7 +194,7 @@ const About = () => {
                 </button>
               </li>
               <li>
-                <a className="button -icon" href={cesarolvrCV} download={true}>
+                <a className="button -icon" href={MrSoluluCV} download={true}>
                   <FiDownload />
                   <p>Download CV</p>
                 </a>
@@ -249,4 +249,4 @@ const About = () => {
 
 export default About;
 
-export const Head = () => <title>Me | cesarolvr</title>;
+export const Head = () => <title>Me | MrSolulu</title>;

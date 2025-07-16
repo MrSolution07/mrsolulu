@@ -16,6 +16,6 @@ const NotFound = () => {
   );
 };
 
-export const Head = () => <title>Nothing here | cesarolvr</title>;
+export const Head = () => <title>Nothing here | MrSolulu</title>;
 
 export default NotFound;

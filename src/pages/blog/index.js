@@ -142,4 +142,4 @@ const Blog = () => {
 
 export default Blog;
 
-export const Head = () => <title>Blog | cesarolvr</title>;
+export const Head = () => <title>Blog | MrSolulu</title>;

@@ -191,5 +191,5 @@ const Post = () => {
 export default Post;
 
 export const Head = () => (
-  <title>003. The analogy of the tower of Hanoi to programming | cesarolvr</title>
+  <title>003. The analogy of the tower of Hanoi to programming | MrSolulu</title>
 );

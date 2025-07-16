@@ -202,5 +202,5 @@ CREATE TABLE wheels (
 export default Post;
 
 export const Head = () => (
-  <title>006. The Boring Side of Modelling Databases | cesarolvr</title>
+  <title>006. The Boring Side of Modelling Databases | MrSolulu</title>
 );
