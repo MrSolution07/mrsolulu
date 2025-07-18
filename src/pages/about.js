@@ -10,7 +10,7 @@ import { FiCopy } from "@react-icons/all-files/fi/FiCopy";
 import { FiDownload } from "@react-icons/all-files/fi/FiDownload";
 
 // Files
-import MrSoluluCV from "../files/cesar-oliveira-resume.pdf";
+import MrSoluluCV from "../files/bulabulacv.pdf";
 
 // Context
 import { State } from "../components/Layout";
@@ -42,7 +42,7 @@ const panelMap = (index) => {
           Check out my{" "}
           <a
             className="underline text-[var(--tw-text-gray-primary)] font-bold"
-            href="https://www.linkedin.com/in/MrSolulu/#experience"
+            // href="https://www.linkedin.com/in/MrSolulu/#experience"
           >
             LinkedIn experience section
           </a>{" "}

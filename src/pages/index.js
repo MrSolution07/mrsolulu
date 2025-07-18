@@ -74,7 +74,7 @@ const IndexPage = () => {
             </div>
           </div>
 
-          <Link
+          {/* <Link
             to="/blog"
             title="soon"
             className="blog-ticker-title  text-[var(--tw-text-gray-secondary)] fixed z-[100] left-[20px] sm:text-[18px] text-[14px]"
@@ -84,7 +84,7 @@ const IndexPage = () => {
               className="scramble-text"
               duration={2}
             />
-          </Link>
+          </Link> */}
           <p className="fixed z-[100] sm:text-[18px] text-right text-underline sm:bottom-[60px] text-[14px] right-[20px] text-[var(--tw-text-gray-secondary)] bottom-[65px]">
             <ScrambleText
               text={`Want to hire me?`}
@@ -99,7 +99,7 @@ const IndexPage = () => {
               />
             </a>
           </p>
-          <div className="blog-ticker">
+          {/* <div className="blog-ticker">
             <div className="blog-ticker-wrapper">
               {articles
                 .flatMap((yearGroup) => yearGroup.posts)
@@ -129,9 +129,9 @@ const IndexPage = () => {
                   );
                 })}
             </div>
-          </div>
+          </div> */}
         </main>
-        <Footer />
+        {/* <Footer /> */}
       </div>
     </>
   );

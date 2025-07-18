@@ -11,7 +11,7 @@ import { FiMail } from "@react-icons/all-files/fi/FiMail";
 import { FiCoffee } from "@react-icons/all-files/fi/FiCoffee";
 
 // Files
-import MrSoluluCV from "../files/cesar-oliveira-resume.pdf";
+import MrSoluluCV from "../files/bulabulacv.pdf";
 
 const bioDescription = `A decade of experience as a Software Engineer (Front-end focused), working on
 large-scale and high-impact projects for digital companies, where

@@ -8,7 +8,7 @@ import Loader from "../components/Loader";
 import Cursor from "../components/Cursor";
 
 // Files
-import MrSoluluCV from "../files/cesar-oliveira-resume.pdf";
+import MrSoluluCV from "../files/bulabulacv.pdf" ;
 
 // Styles
 import "../styles/global.scss";

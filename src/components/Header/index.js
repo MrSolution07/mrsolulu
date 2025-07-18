@@ -102,7 +102,7 @@ const Header = ({ onThemeChange, theme, disableScramble = false }) => {
         </Link>
       </div>
 
-      <ul className="header-list w-[100px] sm:w-[33%]">
+      {/* <ul className="header-list w-[100px] sm:w-[33%]">
         <li>
           <Link
             to="/about/"
@@ -167,7 +167,7 @@ const Header = ({ onThemeChange, theme, disableScramble = false }) => {
             )}
           </Link>
         </li>
-      </ul>
+      </ul> */}
     </header>
   );
 };
