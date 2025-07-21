@@ -140,7 +140,7 @@ const quickActionList = [
     text: "Send an email",
     nick: "e",
     icon: <FiMail />,
-    target: "mailto:contact@ww.solutionincorporate.com",
+    target: "mailto:christian@solutionincorporate.com",
   },
   {
     text: "Follow me on instagram",

@@ -7,7 +7,7 @@ export const onRenderBody = ({ setHtmlAttributes, setHeadComponents }) => {
     // Meta description
     <meta
       key="description"
-      name="description"
+      name="Christian Portfolio"
       content="Christian, a software engineer creating cool digital experiences and sharing knowledge about web development, design and technology."
     />,
     
