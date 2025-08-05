@@ -1,4 +1,4 @@
 1. create an avatar with the same attributes // still looking for a solution // the guy doesnt respond to me
 2. host the website // will try vercel
-3. add links to social medias
+3. add links to social medias //. will updates those links asap 
 4. write some articles and stuff // will start tomorrow with chat
