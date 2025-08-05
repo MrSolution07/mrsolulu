@@ -460,6 +460,7 @@ const Avatar = forwardRef(({ theme }, ref) => {
         <div className="error">
           <p>3D model not available</p>
           <p className="subtitle">
+          {/* will need to create my avatar asap */}
             Please add your avatar.glb file to /static/files/
           </p>
         </div>
