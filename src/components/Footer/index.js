@@ -9,7 +9,7 @@ const Footer = () => {
     typeof window !== "undefined" ? window?.location?.pathname : "";
   return (
     <footer className="footer">
-      {/* <ul className="list">
+      <ul className="list">
         <li className="only-mobile">
           <Link
             to="/about/"
@@ -28,7 +28,7 @@ const Footer = () => {
           </Link>
         </li>
        
-      </ul> */}
+      </ul>
     </footer>
   );
 };

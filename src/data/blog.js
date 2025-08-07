@@ -43,7 +43,7 @@ export const articles = [
       {
         id: "005",
         emoji: "☕",
-        title: "Why (not) start with Java?",
+        title: "Why (not) start with C++?",
         description: "It's the best language to start with? Out of my control.",
         readTime: "6 min read",
         link: "/blog/005-why-not-start-with-java",
