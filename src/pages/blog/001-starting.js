@@ -39,7 +39,11 @@ const Post = () => {
             <div className="text-[var(--color-total)] max-w-full w-full mb-16 px-[5%] leading-[50px] text-[26px]">
               <section class="intro-text">
                 <p>
-                  One Line  A Day to Keep the Doctor Awake. And since then my life has never been the same ever again.
+                  One Line A Day to Keep the Doctor Awake. And since then my life has never been the same ever again.
+                </p>
+                <br />
+                <p>
+                  My story started when I was 12. A friend told me about automating tasks and solving maths using code  and as a math enthusiast, that got me hooked. I wrote my first line of code shortly after. Funny fact: I initially wanted to become a doctor... but coding chose me. I never really chose it. Somehow, I believe God showed me the path.
                 </p>
                 <br />
                 <p>

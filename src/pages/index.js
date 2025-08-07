@@ -99,7 +99,7 @@ const IndexPage = () => {
               />
             </a>
           </p>
-          {/* <div className="blog-ticker">
+          <div className="blog-ticker">
             <div className="blog-ticker-wrapper">
               {articles
                 .flatMap((yearGroup) => yearGroup.posts)
@@ -129,7 +129,7 @@ const IndexPage = () => {
                   );
                 })}
             </div>
-          </div> */}
+          </div>
         </main>
         {/* <Footer /> */}
       </div>
