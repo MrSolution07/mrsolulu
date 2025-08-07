@@ -39,8 +39,7 @@ const Post = () => {
             <div className="text-[var(--color-total)] max-w-full w-full mb-16 px-[5%] leading-[50px] text-[26px]">
               <section class="intro-text">
                 <p>
-                  Today, February 3, 2013, marks the beginning of my career in
-                  technology.
+                  One Line  A Day to Keep the Doctor Awake. And since then my life has never been the same ever again.
                 </p>
                 <br />
                 <p>
