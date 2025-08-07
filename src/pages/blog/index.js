@@ -41,8 +41,9 @@ const Blog = () => {
           </h3>
           <p className="paragraph md:w-[880px] text-[18px] px-[5%] w-full">
             Written by me, for my future self. You will find here an honest (and
-            sometimes wrong) view of front-end, tech career, algorithms,
-            creative development, study strategies and technical leadership.
+            sometimes wrong) view of front-end, Back-end, tech career, algorithms,
+            creative development study strategies and technical leadership. And sometimes 
+            just random thoughts about life and technology.
           </p>
 
           <div className="px-[5%] mt-3">
