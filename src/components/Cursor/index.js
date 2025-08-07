@@ -4,6 +4,7 @@ import classnames from "classnames";
 
 // Styles
 import "./index.scss";
+//. need to update the cursor functionalities
 
 const Cursor = () => {
   useEffect(() => {
