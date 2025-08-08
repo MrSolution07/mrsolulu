@@ -293,7 +293,7 @@ const Avatar = forwardRef(({ theme }, ref) => {
         });
         function blink() {
           if (blinkMesh && blinkIndex !== null) {
-            blinkMesh.morphTargetInfluences[blinkIndex] = 0.5;
+            blinkMesh.morphTargetInfluences[blinkIndex] = 1;
             setTimeout(() => {
               blinkMesh.morphTargetInfluences[blinkIndex] = 0;
             }, 180);
