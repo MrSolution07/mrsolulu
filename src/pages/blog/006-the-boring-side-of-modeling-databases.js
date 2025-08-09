@@ -32,8 +32,8 @@ const Post = () => {
               <h3 className="about-title text-[35px] md:text-[50px] mb-5 font-black w-full leading-[60px] md:mt-0">
                 The Boring Side of Modelling Databases
               </h3>
-              <time datetime="2013-12-02" className="text-[18px] text-[#bbb]">
-                December 02, 2013
+              <time datetime="2015-12-02" className="text-[18px] text-[#bbb]">
+                December 02, 2015
               </time>
             </header>
             <br />
@@ -179,7 +179,7 @@ CREATE TABLE wheels (
                   prevent issues when it comes.
                 </p>
                 <br />
-                <p>A lot of questions to ask her.</p>
+                <p>A lot of questions to ask her (on the youtube comment section lol).</p>
               </section>
             </div>
             <br />

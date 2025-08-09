@@ -30,10 +30,10 @@ const Post = () => {
             <header className="px-[5%] mb-4">
               <p className="mb-3 text-[80px]">🌐</p>
               <h3 className="about-title text-[35px] md:text-[50px] mb-5 font-black w-full leading-[60px] md:mt-0">
-                Networking is not that easy
+                2017 Written by my bro Stevo Steve ! 
               </h3>
               <time datetime="2014-04-15" className="text-[18px] text-[#bbb]">
-                April 15, 2014
+                
               </time>
             </header>
             <br />
@@ -240,7 +240,7 @@ export default Post;
 
 export const Head = () => (
   <>
-    <title>Networking is not that easy - Cesar Oliveira</title>
+    <title>Networking is not that easy - Christian Bulabula</title>
     <meta
       name="description"
       content="Understanding networking concepts through analogies: IP addresses, DNS, ports, firewalls, and network classes explained in simple terms."

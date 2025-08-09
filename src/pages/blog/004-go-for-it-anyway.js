@@ -31,10 +31,10 @@ const Post = () => {
                 Go for it anyway
               </h3>
               <time
-                datetime="2013-03-03"
+                datetime="2015-03-03"
                 className="text-[18px] text-[var(--tw-text-gray-secondary)]"
               >
-                August 12, 2013
+                2015 this was written by a friend I liked it ! (didn't want to be mentioned )
               </time>
             </header>
             <br />

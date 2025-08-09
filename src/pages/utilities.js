@@ -98,7 +98,7 @@ const Actions = () => {
                   />
                 </a>
               </li>
-              <li>
+              {/* <li>
                 <a
                   href="https://codepen.io/MrSolulu/"
                   target="_blank"
@@ -111,8 +111,8 @@ const Actions = () => {
                     placeholder=".:"
                   />
                 </a>
-              </li>
-              <li>
+              </li> */}
+              {/* <li>
                 <a
                   href="https://leetcode.com/u/MrSolulu/"
                   target="_blank"
@@ -125,7 +125,7 @@ const Actions = () => {
                     placeholder=".:"
                   />
                 </a>
-              </li>
+              </li> */}
               <li>
                 {" "}
                 <a
@@ -162,7 +162,7 @@ const Actions = () => {
                   </span>
                 </a>
               </li>
-              <li>
+              {/* <li>
                 <a
                   href="https://goodreads.com/MrSolulu"
                   target="_blank"
@@ -183,10 +183,10 @@ const Actions = () => {
                     />
                   </span>
                 </a>
-              </li>
-              <li>
+              </li> */}
+              {/* <li>
                 <a
-                  href="https://github.com/MrSolution07MrSolulu-www"
+                  href=""
                   target="_blank"
                   className="hover:text-[var(--tw-text-gray-primary)]"
                 >
@@ -205,7 +205,7 @@ const Actions = () => {
                     />
                   </span>
                 </a>
-              </li>
+              </li> */}
             </ul>
           </Container>
         </main>

@@ -30,8 +30,8 @@ const Post = () => {
               <h3 className="about-title text-[35px] md:text-[50px] mb-4 font-black w-full md:mt-0 leading-[60px]">
                 001. Starting...
               </h3>
-              <time datetime="2013-02-03" className="text-[18px] text-[#bbb]">
-                February 3, 2013
+              <time datetime="2015-02-03" className="text-[18px] text-[#bbb]">
+                 2015
               </time>
             </header>
             <br />

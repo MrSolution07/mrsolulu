@@ -9,10 +9,8 @@ import Cursor from "../components/Cursor";
 import { FiCopy } from "@react-icons/all-files/fi/FiCopy";
 import { FiDownload } from "@react-icons/all-files/fi/FiDownload";
 
-// Files
-import MrSoluluCV from "../files/bulabulacv.pdf";
 
-// Context
+import MrSoluluCV from "../files/bulabulacv.pdf";
 import { State } from "../components/Layout";
 
 // Data
@@ -42,7 +40,7 @@ const panelMap = (index) => {
           Check out my{" "}
           <a
             className="underline text-[var(--tw-text-gray-primary)] font-bold"
-            // href="https://www.linkedin.com/in/MrSolulu/#experience"
+            href="https://www.linkedin.com/in/christian-bulabula-93a667289"
           >
             LinkedIn experience section
           </a>{" "}
@@ -176,11 +174,7 @@ const About = () => {
           <div className="bio column">
             <h3 className="about-title mb-2 font-bold text-[18px]">Bio</h3>
             <p className="paragraph">
-              A decade of experience as a Software Engineer (Front-end focused),
-              working on large-scale and high-impact projects for digital
-              companies, where I've crafted digital acquisition experiences,
-              dashboards, awwwards-like websites, design systems, animations
-              libraries, mobile apps and email marketing tools.
+               a Software Engineer. I will ask chat for an interesting bio 🙈
             </p>
             <p className="paragraph">
               I'm really focused about resolve real problems through technology,

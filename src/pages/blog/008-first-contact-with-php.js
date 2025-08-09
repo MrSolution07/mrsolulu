@@ -33,7 +33,7 @@ const Post = () => {
                 First contact with PHP
               </h3>
               <time datetime="2014-02-10" className="text-[18px] text-[#bbb]">
-                March 20, 2014
+                2024
               </time>
             </header>
             <br />
@@ -145,7 +145,7 @@ export default Post;
 
 export const Head = () => (
   <>
-    <title>First contact with PHP - Cesar Oliveira</title>
+    <title>First contact with PHP - Christian Bulabula</title>
     <meta name="description" content="My first steps into PHP development, setting up a local server and creating my first web application for a cake business." />
   </>
 ); 

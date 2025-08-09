@@ -36,10 +36,10 @@ const Post = () => {
                 003. The analogy of the tower of Hanoi to programming
               </h3>
               <time
-                datetime="2013-06-10"
+                datetime="2015-06-10"
                 className="text-[18px] text-[var(--tw-text-gray-secondary)]"
               >
-                June 10, 2013
+                2015
               </time>
             </header>
             <br />

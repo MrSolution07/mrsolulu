@@ -33,7 +33,7 @@ const Post = () => {
                 Starting with Object-Oriented Programming
               </h3>
               <time datetime="2014-01-15" className="text-[18px] text-[#bbb]">
-                January 15, 2014
+                2017
               </time>
             </header>
             <br />
@@ -161,7 +161,7 @@ export default Post;
 
 export const Head = () => (
   <>
-    <title>Starting with Object-Oriented Programming - Cesar Oliveira</title>
+    <title>Starting with Object-Oriented Programming - Christian Bulabula</title>
     <meta name="description" content="My first steps into Object-Oriented Programming with Java, understanding classes, encapsulation, inheritance, and polymorphism." />
   </>
 ); 

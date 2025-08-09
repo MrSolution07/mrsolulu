@@ -33,7 +33,7 @@ const Post = () => {
                 First time using a Linux machine
               </h3>
               <time datetime="2014-05-20" className="text-[18px] text-[#bbb]">
-                May 20, 2014
+                2017
               </time>
             </header>
             <br />
@@ -147,7 +147,7 @@ export default Post;
 
 export const Head = () => (
   <>
-    <title>First time using a Linux machine - Cesar Oliveira</title>
+    <title>First time using a Linux machine - Christian Bulabula</title>
     <meta name="description" content="My journey from skepticism to understanding: discovering why Linux users aren't just hipsters and experiencing the real performance benefits." />
   </>
 ); 

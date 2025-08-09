@@ -1,6 +1,6 @@
 export const articles = [
   {
-    year: 2013,
+    year: 2015,
     posts: [
       {
         id: "001",
@@ -16,7 +16,7 @@ export const articles = [
         emoji: "💻",
         title: "First contact with code",
         description:
-          "I just don't know what I'm doing. Everything that I write sucks.",
+          "I just don't know what I'm doing. Everything that I write looks cool.",
         readTime: "3 min read",
         link: "/blog/002-first-contact-with-code",
         active: true,
@@ -43,7 +43,7 @@ export const articles = [
       {
         id: "005",
         emoji: "☕",
-        title: "Why (not) start with C++?",
+        title: "Why (not) start with java?",
         description: "It's the best language to start with? Out of my control.",
         readTime: "6 min read",
         link: "/blog/005-why-not-start-with-java",
@@ -62,7 +62,7 @@ export const articles = [
     ],
   },
   {
-    year: 2014,
+    year: 2017,
     posts: [
       {
         id: "007",
@@ -76,16 +76,6 @@ export const articles = [
       },
       {
         id: "008",
-        emoji: "🐘",
-        title: "First contact with PHP",
-        description:
-          "My first steps into PHP development, setting up a local server and creating my first web application for a cake business.",
-        readTime: "3 min read",
-        link: "/blog/008-first-contact-with-php",
-        active: true,
-      },
-      {
-        id: "009",
         emoji: "🌐",
         title: "Networking is not that easy",
         description:
@@ -95,7 +85,7 @@ export const articles = [
         active: true,
       },
       {
-        id: "010",
+        id: "009",
         emoji: "🐧",
         title: "First time using a Linux machine",
         description:
@@ -104,7 +94,23 @@ export const articles = [
         link: "/blog/010-first-time-using-linux-machine",
         active: false,
       },
+
     ],
   },
+  {
+    year: 2024,
+    posts: [
+      {
+        id: "010",
+        emoji: "🐘",
+        title: "First contact with PHP",
+        description:
+          "My first steps into PHP development, setting up a local server and creating my first web application for a cake business.",
+        readTime: "3 min read",
+        link: "/blog/008-first-contact-with-php",
+        active: true,
+      },
+    ]
+  }
 ]
  
