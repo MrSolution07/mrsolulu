@@ -139,4 +139,4 @@ const IndexPage = () => {
 
 export default IndexPage;
 
-export const Head = () => <title>One Line A Day TO Keep The Doctor Awake</title>;
+export const Head = () => <title>One Line A Day To Keep The Doctor Awake</title>;
