@@ -118,7 +118,7 @@ const Post = () => {
                 </p>
                 <br />
                 <p className="mb-4">
-                  I'm not saying Windows is bad or that everyone should switch to Linux. But I'm definitely seeing why some people prefer it, especially for development work.
+                  I'm not saying Windows is bad  (it is i'm actually a Mac user) or that everyone should switch to Linux. But I'm definitely seeing why some people prefer it, especially for development work.
                 </p>
                 <br />
                 <p className="mb-4">
