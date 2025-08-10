@@ -92,7 +92,7 @@ export const articles = [
           "I can't see why Linux users are so hipsters. I'm using Windows.",
         readTime: "4 min read",
         link: "/blog/010-first-time-using-linux-machine",
-        active: false,
+        active: true,
       },
 
     ],
