@@ -42,7 +42,7 @@ const careerPath = [
 const academyPath = [
   {
     role: "At Uni",
-    details: `University is a stupid place`,
+    details: ``,
   },
   {
     role: "",
