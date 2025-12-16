@@ -87,13 +87,13 @@ const IndexPage = () => {
           </Link>
           <p className="fixed z-[100] sm:text-[18px] text-right text-underline sm:bottom-[60px] text-[14px] right-[20px] text-[var(--tw-text-gray-secondary)] bottom-[65px]">
             <ScrambleText
-              text={`Want to hire me?`}
+              text={`Like this website?`}
               className="scramble-text"
               duration={2}
             />
-            <a className="underline " href="mailto:christian@solutionincorporate.com">
+            <a className="underline " href="https://github.com/MrSolution07/mrsolulu">
               <ScrambleText
-                text={`christian@solutionincorporate.com`}
+                text={`Copie here`}
                 className="scramble-text"
                 duration={2}
               />
