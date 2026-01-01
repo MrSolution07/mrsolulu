@@ -20,7 +20,7 @@ const Footer = () => {
           }}
         >
           Just copy it
-        </a>{" "}
+        </a>{"https://github.com/MrSolution07/mrsolulu"}
         👍🏾
       </p>
     </div>

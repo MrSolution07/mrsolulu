@@ -9,7 +9,7 @@ export const articles = [
         description: "Describing my purpose and goals for this blog.",
         readTime: "2 min read",
         link: "/blog/001-starting",
-        active: true,
+        active: false,
       },
       {
         id: "002",
@@ -19,7 +19,7 @@ export const articles = [
           "I just don't know what I'm doing. Everything that I write looks cool.",
         readTime: "3 min read",
         link: "/blog/002-first-contact-with-code",
-        active: true,
+        active: false,
       },
       {
         id: "003",
@@ -29,7 +29,7 @@ export const articles = [
           "Understanding programming concepts through the famous puzzle.",
         readTime: "4 min read",
         link: "/blog/003-the-analogy-of-the-tower-of-hanoi-to-programming",
-        active: true,
+        active: false,
       },
       {
         id: "004",
@@ -38,7 +38,7 @@ export const articles = [
         description: "Even with fear or confusion, keep going",
         readTime: "3 min read",
         link: "/blog/004-go-for-it-anyway",
-        active: true,
+        active: false,
       },
       {
         id: "005",
@@ -47,7 +47,7 @@ export const articles = [
         description: "It's the best language to start with? Out of my control.",
         readTime: "6 min read",
         link: "/blog/005-why-not-start-with-java",
-        active: true,
+        active: false,
       },
       {
         id: "006",
@@ -57,7 +57,7 @@ export const articles = [
           "Translate an abstract object and its properties into objects in the real world is not that easy.",
         readTime: "4 min read",
         link: "/blog/006-the-boring-side-of-modeling-databases/",
-        active: true,
+        active: false,
       },
     ],
   },
@@ -72,7 +72,7 @@ export const articles = [
           "My first steps into OOP with Java, understanding classes, encapsulation, inheritance, and polymorphism.",
         readTime: "4 min read",
         link: "/blog/007-starting-with-object-oriented-programming",
-        active: true,
+        active: false,
       },
       {
         id: "008",
@@ -82,7 +82,7 @@ export const articles = [
           "Understanding networking concepts through fool analogies.",
         readTime: "4 min read",
         link: "/blog/009-networking-is-not-that-easy",
-        active: true,
+        active: false,
       },
       {
         id: "009",
@@ -92,7 +92,7 @@ export const articles = [
           "I can't see why Linux users are so hipsters. I'm using Windows.",
         readTime: "4 min read",
         link: "/blog/010-first-time-using-linux-machine",
-        active: true,
+        active: false,
       },
 
     ],
@@ -108,7 +108,7 @@ export const articles = [
           "My first steps into PHP development, setting up a local server and creating my first web application for a cake business.",
         readTime: "3 min read",
         link: "/blog/008-first-contact-with-php",
-        active: true,
+        active: false,
       },
     ]
   }
