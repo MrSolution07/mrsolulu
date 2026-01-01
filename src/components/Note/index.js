@@ -13,15 +13,14 @@ const Footer = () => {
       <p>
         All rights not reserved. Do you want a website like this?{" "}
         <a
-          href="#"
+          href="https://github.com/MrSolution07/mrsolulu"
           onClick={(e) => {
-            e.preventDefault();
-            alert("Sorry, I'm still documenting this thing. Stay tuned!");
+            window.open("https://github.com/MrSolution07/mrsolulu", "_blank");
+            // alert("Sorry, I'm still documenting this thing. Stay tuned!");
           }}
         >
           Just copy it
-        </a>{"https://github.com/MrSolution07/mrsolulu"}
-        👍🏾
+        </a>{""}👍🏾
       </p>
     </div>
   );
