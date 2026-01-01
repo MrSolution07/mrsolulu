@@ -139,18 +139,18 @@ const quickActionList = [
     icon: <FiInstagram />,
     target: "https://www.instagram.com/cb.007/",
   },
-  // {
-  //   text: "See my current readings",
-  //   nick: "r",
-  //   icon: <FiBook />,
-  //   target: "",
-  // },
-  // {
-  //   text: "View source code",
-  //   nick: "r",
-  //   icon: <FiCoffee />,
-  //   target: "https://github.com/MrSolution07MrSolulu-www",
-  // },
+  {
+    text: "See my current readings",
+    nick: "r",
+    icon: <FiBook />,
+    target: "",
+  },
+  {
+    text: "View source code",
+    nick: "r",
+    icon: <FiCoffee />,
+    target: "https://github.com/MrSolution07/mrsolulu",
+  },
 ];
 
 export {
