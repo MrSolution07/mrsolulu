@@ -43,7 +43,8 @@ const Post = () => {
                 </p>
                 <br />
                 <p>
-                  My story started when I was 12. A friend told me about automating tasks and solving maths using code  and as a math enthusiast, that got me hooked. I wrote my first line of code shortly after. Funny fact: I initially wanted to become a doctor... but coding chose me. I never really chose it. Somehow, I believe God showed me the path.
+                  My story started when I was 12. A friend told me about automating tasks and solving maths using code  and as a math enthusiast, that got me hooked. I wrote my first line of code shortly after. 
+                  Funny fact: I initially wanted to become a doctor... but coding chose me. I never really chose it. Somehow, I believe God showed me the path.
                 </p>
                 <br />
                 <p>
