@@ -33,7 +33,7 @@ export const articles = [
         description: "My first steps into coding.",
         readTime: "4 min read",
         link: "/blog/003",
-        active: false,
+        active: true,
       },
     ]
   }
