@@ -19,11 +19,20 @@ export const articles = [
       {
         id: "002",
         emoji: "🎯",
-        title: "Starting with Object-Oriented Programming",
+        title: "First contact with code",
         description:
           "My first steps into OOP ",
+        readTime: "1 min read",
+        link: "/blog/002",
+        active: true,
+      },
+      {
+        id: "003",
+        emoji: "💻",
+        title: "How I really chose Programming",
+        description: "My first steps into coding.",
         readTime: "4 min read",
-        link: "/blog/007",
+        link: "/blog/003",
         active: false,
       },
     ]

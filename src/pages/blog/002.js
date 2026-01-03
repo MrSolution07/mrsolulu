@@ -34,7 +34,7 @@ const Post = () => {
                 dateTime="2013-03-03"
                 className="text-[18px] text-[var(--tw-text-gray-secondary)]"
               >
-                2015
+                2025
               </time>
             </header>
             <br />
@@ -62,7 +62,7 @@ const Post = () => {
               </section>
               <section className="intro-text">
                 <p>
-                  Today marks one month since I first sat in front of a computer
+                  Today (long time ago) marks one month since I first sat in front of a computer
                   to write code. To my surprise, it wasn’t as terrifying as I’d
                   imagined but it also wasn’t the glamorous, hacker-in-a-dark-room
                   experience I’d seen in movies.
@@ -72,27 +72,19 @@ const Post = () => {
                   Back then, I truly believed programming was just about solving
                   equations and doing math. I couldn’t have been more wrong.
                   Instead, I discovered it’s this mix of logic, structure,
-                  creativity, and a surprising amount of patience.
-                </p>
-                <br />
-                <p>
-                  My mother actually pushed me to enroll in a public technical
-                  school that combined high school with computer science
-                  subjects. I didn’t even own a computer at the time, so I
-                  walked into the first class completely raw.
+                  creativity and a surprising amount of patience also a bit of 'it works but I don't know why'.
                 </p>
                 <br />
                 <p>
                   Between physics, chemistry, and mathematics, I now also have
                   to wrap my head around <strong>programming logic</strong>,{" "}
-                  <strong>databases</strong>, <strong>networks</strong>,{" "}
-                  <strong>robotics</strong>, and{" "}
+                  <strong>databases</strong>, <strong>networks</strong>,{" "} 
+                    and{" "}
                   <strong>algorithms & data structures</strong>.
                 </p>
                 <br />
                 <p>
-                  Thankfully, I have friends who already code and can guide me
-                  when things get too confusing.
+                  Thankfully, I have friends and indians on youtube who can help me when things get too confusing.
                 </p>
                 <br />
                 <p>
