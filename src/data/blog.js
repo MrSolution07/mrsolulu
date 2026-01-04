@@ -35,6 +35,15 @@ export const articles = [
         link: "/blog/003",
         active: true,
       },
+      {
+        id: "004",
+        emoji: "💻",
+        title: "How I really chose Programming",
+        description: "My first steps into coding.",
+        readTime: "4 min read",
+        link: "/blog/004",
+        active: false,
+      }
     ]
   }
 ]
