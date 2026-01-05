@@ -38,12 +38,21 @@ export const articles = [
       {
         id: "004",
         emoji: "💻",
-        title: "How I really chose Programming",
-        description: "My first steps into coding.",
+        title: "What is coding ?",
+        description: "",
         readTime: "4 min read",
         link: "/blog/004",
         active: false,
-      }
+      },
+      {
+        id: "005",
+        emoji: "💻",
+        title: "Coding vs Programming",
+        description: "",
+        readTime: "4 min read",
+        link: "/blog/005",
+        active: false,
+      },
     ]
   }
 ]
