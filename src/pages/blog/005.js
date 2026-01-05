@@ -30,7 +30,7 @@ const Post = () => {
             <header className="px-[5%] mb-4">
               <p className="mb-3 text-[80px]">☕</p>
               <h3 className="about-title text-[35px] md:text-[50px] mb-5 font-black w-full leading-[60px] md:mt-0">
-                Why (not) start with Java?
+                Coding vs Programming
               </h3>
               <time
                 datetime="2015-03-03"
