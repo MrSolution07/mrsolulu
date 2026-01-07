@@ -44,10 +44,11 @@ const ScrambleText = ({ text, className, delay = 0, duration = 1, placeholder = 
     if (!textRef.current) return;
 
     const element = textRef.current;
-    // Replace literal \n with actual newlines if needed
-    const originalText = text.replace(/\\n/g, '\n');
+    // Replace literal \n with actual newlines if needed, and trim
+    const originalText = text.replace(/\\n/g, '\n').trim();
 
     // Set initial text content immediately to preserve newlines
+    // Use innerHTML with <br> tags as fallback, but textContent should work with white-space: pre
     element.textContent = originalText;
 
     // Initial scramble
