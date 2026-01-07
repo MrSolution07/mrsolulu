@@ -44,7 +44,11 @@ const ScrambleText = ({ text, className, delay = 0, duration = 1, placeholder = 
     if (!textRef.current) return;
 
     const element = textRef.current;
-    const originalText = text;
+    // Replace literal \n with actual newlines if needed
+    const originalText = text.replace(/\\n/g, '\n');
+
+    // Set initial text content immediately to preserve newlines
+    element.textContent = originalText;
 
     // Initial scramble
     const timeout = setTimeout(() => {
@@ -60,9 +64,7 @@ const ScrambleText = ({ text, className, delay = 0, duration = 1, placeholder = 
     <div
       className={className}
       ref={textRef}
-    >
-      {text}
-    </div>
+    />
   );
 };
 

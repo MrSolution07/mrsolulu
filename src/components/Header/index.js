@@ -91,13 +91,16 @@ const Header = ({ onThemeChange, theme, disableScramble = false }) => {
         <Link to="/">
           {!disableScramble ? (
             <ScrambleText
-              text="www.solutionincorporate.com"
-              className="scramble-text"
+              text={`One Line 
+                     A day
+                     To Keep the Doctor Awake
+                    `}
+              className="scramble-text scramble-text-multiline"
               placeholder="*"
               duration={2.5}
             />
           ) : (
-            <>www.solutionincorporate.com</>
+            <>mrsolulu.vercel.com</>
           )}
         </Link>
       </div>

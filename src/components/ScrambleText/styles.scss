@@ -8,4 +8,10 @@
   &:hover {
     opacity: 0.8;
   }
+
+  &.scramble-text-multiline {
+    display: block !important;
+    white-space: pre-line !important;
+    line-height: 1.2;
+  }
 } 
