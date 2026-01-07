@@ -42,7 +42,7 @@ export const articles = [
         description: "",
         readTime: "4 min read",
         link: "/blog/004",
-        active: false,
+        active: true,
       },
       {
         id: "005",
@@ -51,7 +51,7 @@ export const articles = [
         description: "",
         readTime: "4 min read",
         link: "/blog/005",
-        active: false,
+        active: true,
       },
     ]
   }
