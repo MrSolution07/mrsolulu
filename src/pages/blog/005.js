@@ -81,14 +81,10 @@ const Post = () => {
                 
                 <br />
                 <p>
-                  All of that just to store a name? It feels like overkill. And
-                  then, when I actually want to use it:
                 </p>
                 <br />
                 <br />
                 <p>
-                  Why does everything take so many steps? The language seems to love making me
-                  jump through hoops for even the simplest tasks.
                 </p>
                 <br />
                 <p>
