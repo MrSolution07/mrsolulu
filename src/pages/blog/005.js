@@ -69,7 +69,7 @@ const Post = () => {
                 </p>
                 <br />
                 <p>
-                 
+                  COMING SOON
                 </p>
                 <br />
                 
