@@ -60,7 +60,7 @@ const Post = () => {
               </section>
               <section class="intro-text">
                 <p>
-                  COMING SOON
+                  COMING SOON...
                 </p>
                 <br />
                 <p>
