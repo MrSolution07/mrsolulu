@@ -29,6 +29,7 @@ const Blog = () => {
     }, 800);
   }, []);
 
+  // need to add a filter for the blog posts
   return (
     <>
       <Cursor />
