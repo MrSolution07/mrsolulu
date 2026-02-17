@@ -44,6 +44,11 @@ export const articles = [
         link: "/blog/004",
         active: true,
       },
+    ]
+  },
+  {
+    year: 2026,
+    posts: [
       {
         id: "005",
         emoji: "🤔",
@@ -52,8 +57,8 @@ export const articles = [
         readTime: "4 min read",
         link: "/blog/005",
         active: true,
-      },
+      }
     ]
-  }
+  } 
 ]
  
