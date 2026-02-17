@@ -46,8 +46,8 @@ export const articles = [
       },
       {
         id: "005",
-        emoji: "💻",
-        title: "Coding vs Programming",
+        emoji: "🤔",
+        title: "Are We Ready to Become Dumb?",
         description: "",
         readTime: "4 min read",
         link: "/blog/005",
