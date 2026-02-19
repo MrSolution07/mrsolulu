@@ -69,9 +69,6 @@ const Post = () => {
                 </p>
                 <br />
                 <p>
-                  The first thing I tried to do was identify the basic
-                  attributes of a car. I'm not sure if I got all of them, but
-                  here's what I thought we might need to store:
                 </p>
                 <br />
                 
