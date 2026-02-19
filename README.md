@@ -46,6 +46,9 @@ A modern, responsive personal website built with Gatsby.js, featuring a sleek de
    # or
    npm install
    ```
+   #####################
+   #```DON'T USE BUN```#
+   #####################
 
 3. Start the development server:
    ```bash
