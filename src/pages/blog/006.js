@@ -77,11 +77,7 @@ const Post = () => {
                 
                 <br />
                 <p>
-                  After that, I started wondering about related entities. This
-                  is where I got really confused: A car seems like one thing,
-                  but it's actually made up of lots of different parts. Does
-                  this parts deserve a separate table? Why? What will happen if
-                  we keep it in the same table? I don't get it.
+                 
                 </p>
                 <br />
                 <p>She advised us to add more stuff:</p>
