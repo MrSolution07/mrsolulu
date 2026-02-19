@@ -11,7 +11,7 @@ const NotFound = () => {
   return (
     <div className="not-found">
       <Loader isOpened={true} linkBack={true} limit={404} numberSize="!text-[100px]" />
-      <Link to="/">go back to www.solutionincorporate.com</Link>
+      <Link to="/">go back to mrsolulu.vercel.app</Link>
     </div>
   );
 };
