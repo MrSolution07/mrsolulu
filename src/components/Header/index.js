@@ -97,7 +97,7 @@ const Header = ({ onThemeChange, theme, disableScramble = false }) => {
               duration={2.5}
             />
           ) : (
-            <>mrsolulu.vercel.com</>
+            <>mrsolulu.tech</>
           )}
         </Link>
       </div>
