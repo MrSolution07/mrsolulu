@@ -91,7 +91,7 @@ const Header = ({ onThemeChange, theme, disableScramble = false }) => {
         <Link to="/">
           {!disableScramble ? (
             <ScrambleText
-              text="One Line\nA day To Keep \nthe Doctor Awake"
+              text="mrsolulu.tech"
               className="scramble-text scramble-text-multiline"
               placeholder="*"
               duration={2.5}
