@@ -5,7 +5,6 @@ A modern, responsive personal website built with Gatsby.js, featuring a sleek de
   <img src="home.png" alt="Home Page Preview" width="400"/>
 
 
-
 ## 🚀 Features
 
 - Modern and responsive design
@@ -79,8 +78,6 @@ The project uses several Gatsby plugins and configurations:
 
 ## 📄 License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details...
 
 
