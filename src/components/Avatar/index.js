@@ -408,7 +408,7 @@ const Avatar = forwardRef(({ theme }, ref) => {
       }
       renderer.dispose();
     };
-  }, []); // Remove theme dependency since we're using refs
+  }, []); // Remove theme dependency since we're using refs for avatar
 
   // Apply white color and remove texture only when theme changes
   useEffect(() => {
