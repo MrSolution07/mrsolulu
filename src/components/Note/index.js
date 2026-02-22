@@ -9,7 +9,7 @@ import "./index.scss";
 const Footer = () => {
   return (
     <div className="note">
-      {/* <p>if you want a website like this one, let me know here 👉🏾 </p> */}
+      <p>if you want a website like this one, let me know here 👉🏾 </p>
       <p>
         All rights not reserved. Do you want a website like this?{" "}
         <a
