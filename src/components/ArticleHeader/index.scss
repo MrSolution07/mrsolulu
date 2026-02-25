@@ -1,5 +1,11 @@
+$blog-desktop: 730px;
+
 .article-header {
-  margin-bottom: 2rem;
+  margin-bottom: 1.5rem;
+
+  @media (min-width: $blog-desktop) {
+    margin-bottom: 2rem;
+  }
 
   &__series {
     font-size: 0.9rem;
@@ -8,17 +14,26 @@
   }
 
   &__title {
-    font-size: clamp(1.75rem, 4vw, 2.5rem);
+    font-size: clamp(1.5rem, 4vw, 2.5rem);
     font-weight: 700;
     line-height: 1.2;
-    margin: 0 0 0.75rem;
+    margin: 0 0 0.6rem;
     color: var(--text-primary);
+
+    @media (min-width: $blog-desktop) {
+      margin-bottom: 0.75rem;
+    }
   }
 
   &__meta {
-    font-size: 1rem;
+    font-size: 0.9rem;
+    line-height: 1.5;
     color: var(--tw-text-gray-secondary, #999);
     margin: 0;
+
+    @media (min-width: $blog-desktop) {
+      font-size: 1rem;
+    }
 
     time {
       font-style: normal;

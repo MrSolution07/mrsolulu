@@ -73,6 +73,18 @@ export const articles = [
         dateTime: "2026-02-17",
         tags: ["AI", "Learning", "Philosophy"],
       },
+      {
+        id: "007",
+        emoji: "⏳",
+        title: "Time Doesn't Exist",
+        description: "What if everything you believe about time is wrong?",
+        readTime: "8 min read",
+        link: "/blog/007",
+        active: true,
+        date: "Feb 25, 2026",
+        dateTime: "2026-02-25",
+        tags: ["Philosophy", "Science", "Physics"],
+      },
     ]
   }
 ];

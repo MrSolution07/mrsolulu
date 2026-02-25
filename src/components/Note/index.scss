@@ -1,8 +1,12 @@
 .note {
   width: 100%;
-  padding: 20px;
+  padding: 1rem;
   line-height: 22px;
   text-align: center;
+
+  @media (min-width: 730px) {
+    padding: 20px;
+  }
 
   a {
     text-decoration: underline;

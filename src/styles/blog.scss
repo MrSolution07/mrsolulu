@@ -1,33 +1,59 @@
+$blog-mobile: 480px;
+$blog-desktop: 730px;
+
 // Blog list and post layout
 .blog-main {
   margin-left: auto;
   margin-right: auto;
-  padding-left: 5%;
-  padding-right: 5%;
+  padding-left: max(5%, 1rem);
+  padding-right: max(5%, 1rem);
+  padding-top: 1rem;
+
+  @media (min-width: $blog-desktop) {
+    padding-top: 1.5rem;
+  }
 }
 
-// Blog list page (TkDodo-style)
+// ── Blog list page ──────────────────────────────────────────────────
+
 .blog-list-header {
-  margin-bottom: 2rem;
+  margin-bottom: 1.5rem;
+
+  @media (min-width: $blog-desktop) {
+    margin-bottom: 2rem;
+  }
 }
 
 .blog-list-title {
-  font-size: clamp(2rem, 5vw, 3rem);
+  font-size: clamp(1.75rem, 5vw, 3rem);
   font-weight: 800;
-  margin: 2.5rem 0 0.75rem;
+  margin: 1.5rem 0 0.75rem;
   color: var(--text-primary);
+
+  @media (min-width: $blog-desktop) {
+    margin-top: 2.5rem;
+  }
 }
 
 .blog-list-intro {
   max-width: 55ch;
-  font-size: 1.125rem;
-  line-height: 1.6;
+  font-size: 1rem;
+  line-height: 1.65;
   color: var(--text-secondary);
   margin: 0;
+
+  @media (min-width: $blog-desktop) {
+    font-size: 1.125rem;
+    line-height: 1.6;
+  }
 }
 
 .blog-list-controls {
-  margin: 1.5rem 0 2rem;
+  margin: 1.25rem 0 1.5rem;
+
+  @media (min-width: $blog-desktop) {
+    margin: 1.5rem 0 2rem;
+  }
 }
 
 .blog-list-filter {
@@ -36,8 +62,12 @@
   padding: 0.5rem 0.75rem;
   border-radius: 4px;
   border: 1px solid var(--border-primary, #444);
-  font-size: 0.9rem;
+  font-size: 1rem; // >= 16px avoids iOS zoom on focus
   cursor: pointer;
+
+  @media (min-width: $blog-desktop) {
+    font-size: 0.9rem;
+  }
 
   &:focus {
     outline: 2px solid var(--text-primary);
@@ -49,7 +79,11 @@
   font-size: 1rem;
   font-weight: 600;
   color: var(--tw-text-gray-secondary, #777);
-  margin: 2rem 0 0.75rem;
+  margin: 1.75rem 0 0.5rem;
+
+  @media (min-width: $blog-desktop) {
+    margin: 2rem 0 0.75rem;
+  }
 }
 
 .blog-list {
@@ -65,10 +99,15 @@
 
 .blog-list-link {
   display: block;
-  padding: 1.25rem 0;
+  padding: 1rem 0;
+  min-height: 44px; // touch-friendly tap target
   text-decoration: none;
   color: inherit;
   transition: background 0.15s ease;
+
+  @media (min-width: $blog-desktop) {
+    padding: 1.25rem 0;
+  }
 
   &:hover {
     background: var(--bg-total, rgba(255, 255, 255, 0.03));
@@ -82,16 +121,25 @@
 
 .blog-list-meta {
   display: block;
-  font-size: 0.9rem;
+  font-size: 0.85rem;
   color: var(--tw-text-gray-secondary, #999);
-  margin-bottom: 0.35rem;
+  margin-bottom: 0.3rem;
+
+  @media (min-width: $blog-desktop) {
+    font-size: 0.9rem;
+    margin-bottom: 0.35rem;
+  }
 }
 
 .blog-list-item-title {
   display: block;
   font-weight: 700;
-  font-size: 1.15rem;
+  font-size: 1.05rem;
   color: var(--text-primary);
+
+  @media (min-width: $blog-desktop) {
+    font-size: 1.15rem;
+  }
 
   .blog-list-link:hover & {
     text-decoration: underline;
@@ -99,28 +147,50 @@
 }
 
 .blog-list-item-desc {
-  font-size: 1rem;
+  font-size: 0.95rem;
   color: var(--text-secondary);
   margin: 0.4rem 0 0;
   max-width: 65ch;
+  overflow-wrap: break-word;
+
+  @media (min-width: $blog-desktop) {
+    font-size: 1rem;
+  }
 }
 
 .blog-list-item-read {
   display: inline-block;
-  font-size: 0.875rem;
+  font-size: 0.85rem;
   color: var(--tw-text-gray-secondary, #777);
-  margin-top: 0.5rem;
+  margin-top: 0.4rem;
+
+  @media (min-width: $blog-desktop) {
+    font-size: 0.875rem;
+    margin-top: 0.5rem;
+  }
 }
 
-// Article prose (TkDodo-style readability)
+// ── Article prose (TkDodo-style readability) ────────────────────────
+
 .blog-prose {
   max-width: 65ch;
-  line-height: 1.65;
+  font-size: 1rem;
+  line-height: 1.7;
   color: var(--color-total, var(--text-secondary));
+  overflow-wrap: break-word;
+
+  @media (min-width: $blog-desktop) {
+    font-size: 1.05rem;
+    line-height: 1.65;
+  }
 
   p {
-    margin-bottom: 1.25em;
+    margin-bottom: 1.15em;
     color: inherit;
+
+    @media (min-width: $blog-desktop) {
+      margin-bottom: 1.25em;
+    }
 
     &:last-child {
       margin-bottom: 0;
@@ -132,15 +202,41 @@
     font-weight: 600;
   }
 
+  ul,
+  ol {
+    margin: 1em 0;
+    padding-left: 1.5rem;
+
+    li {
+      margin-bottom: 0.5em;
+    }
+  }
+
+  ul {
+    list-style: disc;
+  }
+
+  ol {
+    list-style: decimal;
+  }
+
   .tldr {
-    font-size: 1.1rem;
+    font-size: 1rem;
     line-height: 1.6;
     margin-bottom: 2rem;
 
+    @media (min-width: $blog-desktop) {
+      font-size: 1.1rem;
+    }
+
     ul {
       list-style: disc;
-      padding-left: 1.5rem;
+      padding-left: 1.25rem;
       margin: 0.5em 0 0;
+
+      @media (min-width: $blog-desktop) {
+        padding-left: 1.5rem;
+      }
     }
 
     li {
@@ -149,9 +245,13 @@
   }
 
   .intro-text {
-    font-size: 1.15rem;
+    font-size: 1rem;
 
-    @media (min-width: 730px) {
+    @media (min-width: $blog-mobile) {
+      font-size: 1.05rem;
+    }
+
+    @media (min-width: $blog-desktop) {
       font-size: 1.2rem;
     }
   }
@@ -162,22 +262,37 @@
   }
 
   code {
-    font-size: 0.9em;
+    font-size: 0.85em;
     padding: 0.15em 0.35em;
     background: var(--hover-bg, rgba(255, 255, 255, 0.08));
     border-radius: 4px;
+
+    @media (min-width: $blog-desktop) {
+      font-size: 0.9em;
+    }
   }
 
   pre {
     overflow-x: auto;
-    padding: 1rem 1.25rem;
+    -webkit-overflow-scrolling: touch;
+    padding: 0.75rem 1rem;
     background: var(--hover-bg, rgba(255, 255, 255, 0.08));
     border-radius: 6px;
-    margin: 1.5rem 0;
+    margin: 1.25rem 0;
+
+    @media (min-width: $blog-desktop) {
+      padding: 1rem 1.25rem;
+      margin: 1.5rem 0;
+    }
 
     code {
       padding: 0;
       background: none;
+      font-size: 0.85rem;
+
+      @media (min-width: $blog-desktop) {
+        font-size: 0.9rem;
+      }
     }
   }
 
@@ -187,16 +302,54 @@
   }
 
   blockquote {
-    margin: 1.5rem 0;
-    padding-left: 1rem;
+    margin: 1.25rem 0;
+    padding-left: 0.75rem;
     border-left: 3px solid var(--tw-text-gray-secondary, #666);
+
+    @media (min-width: $blog-desktop) {
+      margin: 1.5rem 0;
+      padding-left: 1rem;
+    }
+  }
+
+  img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 6px;
+    margin: 1.5rem 0;
+    display: block;
+  }
+
+  h2 {
+    font-size: 1.35rem;
+    font-weight: 700;
+    color: var(--text-primary);
+    margin: 2rem 0 0.75rem;
+    line-height: 1.3;
+
+    @media (min-width: $blog-desktop) {
+      font-size: 1.5rem;
+      margin: 2.25rem 0 0.85rem;
+    }
+  }
+
+  hr,
+  .blog-prose-divider {
+    border: 0;
+    height: 0;
+    margin: 2rem 0;
+    padding: 0;
+    border-top: 1px solid var(--tw-text-gray-secondary, #555);
   }
 }
 
-// Back to blog link
+// ── Back to blog link ───────────────────────────────────────────────
+
 .blog-back-link {
   display: inline-block;
   margin-top: 2rem;
+  padding: 0.5rem 0;
+  min-height: 44px;
   font-size: 1rem;
   color: var(--tw-text-gray-secondary);
 
