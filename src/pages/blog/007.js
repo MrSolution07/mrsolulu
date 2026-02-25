@@ -29,13 +29,13 @@ const Post = () => (
             At first, that sounds absurd. Time structures our days, governs our calendars, and silently measures our lives. We wake up to it, work by it, celebrate by it, and fear it. So how could it possibly not exist?
           </p>
           <p>
-            And yet — the deeper science looks, the stranger time becomes.
+            And yet   the deeper science looks, the stranger time becomes.
           </p>
         </section>
 
         <h2>The Definition Problem</h2>
         <p>
-          Here's a simple challenge: define time — without using the word time.
+          Here's a simple challenge: define time   without using the word time.
         </p>
         <p>
           You might say it's "the duration between events" or "the succession of moments." But notice the trap: every attempt to define time secretly relies on the concept itself. It's circular.
@@ -63,7 +63,7 @@ const Post = () => (
           Or are we simply observing change?
         </p>
         <p>
-          Some physicists argue that time is not a fundamental ingredient of the universe — but a mental framework our brains use to organize change. Just as temperature emerges from the motion of molecules, time may emerge from deeper processes.
+          Some physicists argue that time is not a fundamental ingredient of the universe   but a mental framework our brains use to organize change. Just as temperature emerges from the motion of molecules, time may emerge from deeper processes.
         </p>
         <p>
           At the most fundamental level, certain modern physical theories don't even include time in their core equations. It disappears.
@@ -80,7 +80,7 @@ const Post = () => (
           Everything changed in 1905 when Albert Einstein published his theory of relativity.
         </p>
         <p>
-          Before Einstein, time was thought to be absolute — the same everywhere, ticking uniformly like a cosmic metronome.
+          Before Einstein, time was thought to be absolute   the same everywhere, ticking uniformly like a cosmic metronome.
         </p>
         <p>
           Einstein proved that was false.
@@ -103,19 +103,19 @@ const Post = () => (
 
         <h2>The Atomic Clock Experiment</h2>
         <p>
-          Atomic clocks — the most precise clocks humanity has ever built — measure time using the oscillations of cesium-133 atoms. They are so accurate that they would lose just one second over billions of years.
+          Atomic clocks   the most precise clocks humanity has ever built   measure time using the oscillations of cesium-133 atoms. They are so accurate that they would lose just one second over billions of years.
         </p>
         <p>
           Scientists performed a fascinating experiment:
         </p>
         <p>
-          Two identical atomic clocks were synchronized. One remained in place. The other was moved — even slightly, such as to a higher floor.
+          Two identical atomic clocks were synchronized. One remained in place. The other was moved   even slightly, such as to a higher floor.
         </p>
         <p>
           When reunited, they were no longer perfectly synchronized.
         </p>
         <p>
-          A tiny difference — but measurable.
+          A tiny difference   but measurable.
         </p>
         <p>
           If time were absolute and universal, this wouldn't happen.
@@ -148,7 +148,7 @@ const Post = () => (
           This isn't science fiction. It's a direct consequence of relativity.
         </p>
         <p>
-          Time slows down at high speeds. This phenomenon — time dilation — has been confirmed in particle accelerators and satellite systems.
+          Time slows down at high speeds. This phenomenon   time dilation   has been confirmed in particle accelerators and satellite systems.
         </p>
         <p>
           In fact, GPS satellites must correct for relativistic time differences. Without these corrections, your GPS location would drift by kilometers within minutes.
@@ -171,7 +171,7 @@ const Post = () => (
           To a passenger on the train, one strike happens before the other.
         </p>
         <p>
-          Both observers are correct — from their own frame of reference.
+          Both observers are correct   from their own frame of reference.
         </p>
         <p>
           There is no universal "now."
@@ -187,7 +187,7 @@ const Post = () => (
           Traveling to the future?
         </p>
         <p>
-          Yes — in theory.
+          Yes   in theory.
         </p>
         <p>
           If you move close enough to the speed of light, time slows dramatically for you. Spend five years traveling at relativistic speeds, and decades could pass on Earth.
@@ -199,7 +199,7 @@ const Post = () => (
           That's far more complicated.
         </p>
         <p>
-          Physicist Stephen Hawking once hosted a party for time travelers — and only sent the invitations after it had ended. No one showed up.
+          Physicist Stephen Hawking once hosted a party for time travelers   and only sent the invitations after it had ended. No one showed up.
         </p>
         <p>
           His conclusion? The laws of physics may protect causality, preventing paradoxes like going back and altering your own past.
@@ -210,7 +210,7 @@ const Post = () => (
           Some theories propose something even stranger: the "block universe."
         </p>
         <p>
-          In this model, past, present, and future all coexist — like pages of a book already written. We simply experience them sequentially.
+          In this model, past, present, and future all coexist   like pages of a book already written. We simply experience them sequentially.
         </p>
         <p>
           If true, the future may already exist.
@@ -219,7 +219,7 @@ const Post = () => (
           Free will would become questionable.
         </p>
         <p>
-          But relativity offers a different view: time is not fixed — it's dynamic. Each of us traces a unique path through space-time, shaped by movement, gravity, and choice.
+          But relativity offers a different view: time is not fixed   it's dynamic. Each of us traces a unique path through space-time, shaped by movement, gravity, and choice.
         </p>
 
         <h2>So… Does Time Exist?</h2>
@@ -251,7 +251,7 @@ const Post = () => (
           But reality doesn't require intuition.
         </p>
         <p>
-          The strongest evidence we have — atomic clocks, relativity, gravitational time dilation — all point to one unsettling conclusion:
+          The strongest evidence we have   atomic clocks, relativity, gravitational time dilation   all point to one unsettling conclusion:
         </p>
         <p>
           There is no universal time.
@@ -271,7 +271,7 @@ const Post = () => (
           Maybe time doesn't exist the way we think it does.
         </p>
         <p>
-          Maybe what we call "time" is simply change — structured by the mind and shaped by motion.
+          Maybe what we call "time" is simply change   structured by the mind and shaped by motion.
         </p>
         <p>
           And maybe the most profound mystery isn't whether time exists…
@@ -280,7 +280,7 @@ const Post = () => (
           …but whether we ever truly understood it at all.
         </p>
         <p>
-          <em>— Images: Unsplash</em>
+          <em>  Images: Unsplash</em>
         </p>
       </div>
       <Link to="/blog/" className="blog-back-link">
