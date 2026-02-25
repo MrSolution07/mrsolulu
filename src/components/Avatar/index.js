@@ -39,7 +39,6 @@ const Avatar = forwardRef(({ theme }, ref) => {
 
   const [surprisedTarget, setSurprisedTarget] = useState(0);
 
-  // Update target intensities when theme changes
   useEffect(() => {
     targetIntensitiesRef.current = {
       ambient: theme === "light" ? 2.5 : 1,
@@ -364,9 +363,7 @@ const Avatar = forwardRef(({ theme }, ref) => {
         );
       }
 
-      // Smooth head rotation
       if (headBoneRef.current) {
-        // Interpolate current rotation towards target rotation
         currentRotationRef.current.x = gsap.utils.interpolate(
           currentRotationRef.current.x,
           targetRotationRef.current.x,
@@ -408,9 +405,7 @@ const Avatar = forwardRef(({ theme }, ref) => {
       }
       renderer.dispose();
     };
-  }, []); // Remove theme dependency since we're using refs for avatar
-
-  // Apply white color and remove texture only when theme changes
+  }, []); 
   useEffect(() => {
     if (!modelRef.current) return;
     modelRef.current.traverse((node) => {
@@ -434,7 +429,6 @@ const Avatar = forwardRef(({ theme }, ref) => {
     });
   }, [theme, modelRef.current]);
 
-  // Listen for hover events on all <a> elements
   useEffect(() => {
     function handleLinkEnter(e) {
       if (e.target.tagName === "A") {
