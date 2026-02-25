@@ -5,18 +5,19 @@ import Header from "../../components/Header";
 import Note from "../../components/Note";
 import Loader from "../../components/Loader";
 import Cursor from "../../components/Cursor";
+import SkipToContent from "../../components/SkipToContent";
 
 // Content
 import { articles } from "../../data/blog";
 
 // Styles
 import "../../styles/global.scss";
+import "../../styles/blog.scss";
 
 const Blog = () => {
   const [isOpened, setIsOpened] = React.useState(true);
-  const [filter, setFilter] = React.useState("all"); // "all" or "published"
+  const [filter, setFilter] = React.useState("all");
 
-  // Find the last active article across all years
   const lastPublished =
     articles
       ?.flatMap((yearGroup) => yearGroup.posts)
@@ -29,30 +30,30 @@ const Blog = () => {
     }, 800);
   }, []);
 
-  // need to add a filter for the blog posts
   return (
     <>
       <Cursor />
       <div className="blog">
+        <SkipToContent />
         <Loader isOpened={isOpened} duration={0.5} />
         <Header goBackToHome={true} disableScramble={true} />
-        <main className="flex flex-col mb-10 max-w-full">
-          <h3 className="about-title text-[50px] mb-6 font-black px-[5%] w-full mt-10 md:mt-0">
-            Ideas. Opinions. Daydreams.
-          </h3>
-          <p className="paragraph md:w-[880px] text-[18px] px-[5%] w-full">
-            Written by me, for my future self. You will find here an honest (and
-            sometimes wrong) view of front-end, Back-end, tech career, algorithms,
-            creative development study strategies and technical leadership. And sometimes 
-            just random thoughts about life and technology.
-          </p>
+        <main id="main-content" className="flex flex-col mb-10 max-w-full blog-main">
+          <header className="blog-list-header">
+            <h1 className="blog-list-title">Ideas. Opinions. Daydreams.</h1>
+            <p className="blog-list-intro">
+              Written by me, for my future self. You will find here an honest (and
+              sometimes wrong) view of front-end, Back-end, tech career, algorithms,
+              creative development study strategies and technical leadership. And sometimes
+              just random thoughts about life and technology.
+            </p>
+          </header>
 
-          <div className="px-[5%] mt-3">
-            <br />
+          <div className="blog-list-controls">
             <select
               value={filter}
               onChange={(e) => setFilter(e.target.value)}
-              className="bg-[var(--bg-primary)] text-[var(--tw-text-gray-primary)] px-4 py-2 rounded border border-[var(--border-primary)] focus:outline-none focus:border-[var(--border-primary)]"
+              className="blog-list-filter"
+              aria-label="Filter posts"
             >
               <option value="all">All Posts</option>
               <option value="scheduled">Scheduled posts</option>
@@ -75,11 +76,9 @@ const Blog = () => {
                   {(filter === "all" ||
                     (filter === "published" && hasPublishedPosts) ||
                     (filter === "scheduled" && hasScheduledPosts)) && (
-                    <p className="px-[5%] mb-8 mt-12 text-[20px] text-[#555555] font-bold">
-                      {yearGroup.year}
-                    </p>
+                    <p className="blog-list-year">{yearGroup.year}</p>
                   )}
-                  <ul className="text-[18px] w-full">
+                  <ul className="blog-list text-[18px] w-full">
                     {yearGroup.posts
                       ?.slice()
                       .reverse()
@@ -90,44 +89,41 @@ const Blog = () => {
                           (filter === "scheduled" && !post.active)
                       )
                       .map((article) => (
-                        <li
-                          key={article.id}
-                          id={article.id}
-                          className="flex border-b-[1px] border-[var(--border-primary)] flex-col items-start group px-[5%] pb-8 pt-5 w-full text-[var(--color-total-inverse)] transition-none hover:bg-[var(--bg-total)]"
-                        >
+                        <li key={article.id} id={article.id} className="blog-list-item">
                           <a
                             href={
                               article.active
                                 ? article.link
                                 : `#${lastPublished}`
                             }
+                            className="blog-list-link"
                           >
-                            <div className="flex flex-row items-center mb-3 md:mb-0">
-                              <p className="pl-0 md:pr-4 pr-2 md:pl-0 text-[30px] w-[50px] inline-block shrink-0 text-center">
-                                {article.emoji}
+                            <span className="blog-list-meta">
+                              {article.date && (
+                                <time dateTime={article.dateTime}>
+                                  {article.date}
+                                </time>
+                              )}
+                              {article.tags?.length > 0 && (
+                                <>
+                                  {article.date && " — "}
+                                  {article.tags.join(", ")}
+                                </>
+                              )}
+                            </span>
+                            <span className="blog-list-item-title">
+                              {article.id}. {article.title}
+                            </span>
+                            {article.active && article.description && (
+                              <p className="blog-list-item-desc">
+                                {article.description}
                               </p>
-                              <p className="font-bold break-words text-[18px] md:text-[20px] group-hover:text-[var(--color-total-inverse)] group-hover:underline transition-none">
-                                <span className="transition-none">{article.id}.</span>{" "}
-                                {article.title}
-                              </p>
-                            </div>
-                            <div className="md:pl-[50px]">
-                              <p className="text-[#777777] mb-6 text-[18px] group-hover:text-[var(--color-total-inverse)] max-w-[700px] block transition-none">
-                                {article.active
-                                  ? article.description
-                                  : "Will be published soon..."}
-                              </p>
-                              <p className="text-[16px] group-hover:text-[#666] group-hover:hidden transition-none">
-                                {article.active
-                                  ? article.readTime
-                                  : "Go to the last published ->"}
-                              </p>
-                              <p className="text-[16px] hidden group-hover:block group-hover:text-[var(--color-total-inverse)] font-bold transition-none">
-                                {article.active
-                                  ? "Read ->"
-                                  : "Go to the last published ->"}
-                              </p>
-                            </div>
+                            )}
+                            <span className="blog-list-item-read">
+                              {article.active
+                                ? article.readTime
+                                : "Will be published soon..."}
+                            </span>
                           </a>
                         </li>
                       ))}

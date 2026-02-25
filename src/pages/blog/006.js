@@ -1,34 +1,38 @@
 import * as React from "react";
-import { Prism as SyntaxHighlighter } from "react-syntax-highlighter";
-import { darcula } from "react-syntax-highlighter/dist/esm/styles/prism";
+import { Link } from "gatsby";
 
 // Components
-import Header from "../../components/Header";
-import Note from "../../components/Note";
-import Loader from "../../components/Loader";
-import Cursor from "../../components/Cursor";
+import BlogPostLayout from "../../components/BlogPostLayout";
+import ArticleHeader from "../../components/ArticleHeader";
 
-// Styles
-import "../../styles/global.scss";
+// Data
+import { getPostByLink } from "../../data/blog";
 
-const Post = () => {
-  const [isOpened, setIsOpened] = React.useState(true);
-  React.useEffect(() => {
-    setTimeout(() => {
-      setIsOpened(false);
-    }, 800);
-  }, []);
+const postMeta = getPostByLink("/blog/006");
 
-  return (
-    <>
-      <Cursor />
-     
-    </>
-  );
-};
+const Post = () => (
+  <BlogPostLayout>
+    <article>
+      <ArticleHeader
+        title={postMeta?.title ?? "To be determined"}
+        date={postMeta?.date}
+        dateTime={postMeta?.dateTime}
+        tags={postMeta?.tags}
+      />
+      <div className="blog-prose">
+        <section className="intro-text">
+          <p>Coming soon.</p>
+        </section>
+      </div>
+      <Link to="/blog/" className="blog-back-link">
+        {"<- "} Back to blog
+      </Link>
+    </article>
+  </BlogPostLayout>
+);
 
 export default Post;
 
 export const Head = () => (
-  <title>006. to be dermided | MrSolulu</title>
+  <title>{postMeta ? `${postMeta.id}. ${postMeta.title}` : "006. To be determined"} | MrSolulu</title>
 );

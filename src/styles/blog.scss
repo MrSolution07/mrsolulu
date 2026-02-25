@@ -1,0 +1,206 @@
+// Blog list and post layout
+.blog-main {
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+// Blog list page (TkDodo-style)
+.blog-list-header {
+  margin-bottom: 2rem;
+}
+
+.blog-list-title {
+  font-size: clamp(2rem, 5vw, 3rem);
+  font-weight: 800;
+  margin: 2.5rem 0 0.75rem;
+  color: var(--text-primary);
+}
+
+.blog-list-intro {
+  max-width: 55ch;
+  font-size: 1.125rem;
+  line-height: 1.6;
+  color: var(--text-secondary);
+  margin: 0;
+}
+
+.blog-list-controls {
+  margin: 1.5rem 0 2rem;
+}
+
+.blog-list-filter {
+  background: var(--bg-primary);
+  color: var(--tw-text-gray-primary);
+  padding: 0.5rem 0.75rem;
+  border-radius: 4px;
+  border: 1px solid var(--border-primary, #444);
+  font-size: 0.9rem;
+  cursor: pointer;
+
+  &:focus {
+    outline: 2px solid var(--text-primary);
+    outline-offset: 2px;
+  }
+}
+
+.blog-list-year {
+  font-size: 1rem;
+  font-weight: 600;
+  color: var(--tw-text-gray-secondary, #777);
+  margin: 2rem 0 0.75rem;
+}
+
+.blog-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.blog-list-item {
+  border-bottom: 1px solid var(--border-primary, #333);
+  margin: 0;
+}
+
+.blog-list-link {
+  display: block;
+  padding: 1.25rem 0;
+  text-decoration: none;
+  color: inherit;
+  transition: background 0.15s ease;
+
+  &:hover {
+    background: var(--bg-total, rgba(255, 255, 255, 0.03));
+  }
+
+  &:focus-visible {
+    outline: 2px solid var(--text-primary);
+    outline-offset: 2px;
+  }
+}
+
+.blog-list-meta {
+  display: block;
+  font-size: 0.9rem;
+  color: var(--tw-text-gray-secondary, #999);
+  margin-bottom: 0.35rem;
+}
+
+.blog-list-item-title {
+  display: block;
+  font-weight: 700;
+  font-size: 1.15rem;
+  color: var(--text-primary);
+
+  .blog-list-link:hover & {
+    text-decoration: underline;
+  }
+}
+
+.blog-list-item-desc {
+  font-size: 1rem;
+  color: var(--text-secondary);
+  margin: 0.4rem 0 0;
+  max-width: 65ch;
+}
+
+.blog-list-item-read {
+  display: inline-block;
+  font-size: 0.875rem;
+  color: var(--tw-text-gray-secondary, #777);
+  margin-top: 0.5rem;
+}
+
+// Article prose (TkDodo-style readability)
+.blog-prose {
+  max-width: 65ch;
+  line-height: 1.65;
+  color: var(--color-total, var(--text-secondary));
+
+  p {
+    margin-bottom: 1.25em;
+    color: inherit;
+
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
+
+  strong {
+    color: var(--text-primary);
+    font-weight: 600;
+  }
+
+  .tldr {
+    font-size: 1.1rem;
+    line-height: 1.6;
+    margin-bottom: 2rem;
+
+    ul {
+      list-style: disc;
+      padding-left: 1.5rem;
+      margin: 0.5em 0 0;
+    }
+
+    li {
+      margin-bottom: 0.75em;
+    }
+  }
+
+  .intro-text {
+    font-size: 1.15rem;
+
+    @media (min-width: 730px) {
+      font-size: 1.2rem;
+    }
+  }
+
+  pre,
+  code {
+    font-family: "Fira Code", monospace;
+  }
+
+  code {
+    font-size: 0.9em;
+    padding: 0.15em 0.35em;
+    background: var(--hover-bg, rgba(255, 255, 255, 0.08));
+    border-radius: 4px;
+  }
+
+  pre {
+    overflow-x: auto;
+    padding: 1rem 1.25rem;
+    background: var(--hover-bg, rgba(255, 255, 255, 0.08));
+    border-radius: 6px;
+    margin: 1.5rem 0;
+
+    code {
+      padding: 0;
+      background: none;
+    }
+  }
+
+  a {
+    color: inherit;
+    text-decoration: underline;
+  }
+
+  blockquote {
+    margin: 1.5rem 0;
+    padding-left: 1rem;
+    border-left: 3px solid var(--tw-text-gray-secondary, #666);
+  }
+}
+
+// Back to blog link
+.blog-back-link {
+  display: inline-block;
+  margin-top: 2rem;
+  font-size: 1rem;
+  color: var(--tw-text-gray-secondary);
+
+  &:hover {
+    color: var(--text-primary);
+  }
+}

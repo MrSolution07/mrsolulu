@@ -10,6 +10,9 @@ export const articles = [
         readTime: "2 min read",
         link: "/blog/001-starting",
         active: true,
+        date: "Feb 3, 2024",
+        dateTime: "2024-02-03",
+        tags: ["Blog", "Goals"],
       },
     ],
   },
@@ -25,6 +28,9 @@ export const articles = [
         readTime: "1 min read",
         link: "/blog/002",
         active: true,
+        date: "Mar 3, 2025",
+        dateTime: "2025-03-03",
+        tags: ["Programming", "OOP"],
       },
       {
         id: "003",
@@ -34,6 +40,9 @@ export const articles = [
         readTime: "4 min read",
         link: "/blog/003",
         active: true,
+        date: "Jan 3, 2025",
+        dateTime: "2025-01-03",
+        tags: ["Programming", "Career"],
       },
       {
         id: "004",
@@ -43,6 +52,9 @@ export const articles = [
         readTime: "4 min read",
         link: "/blog/004",
         active: true,
+        date: "Mar 3, 2025",
+        dateTime: "2025-03-03",
+        tags: ["Programming", "Basics"],
       },
     ]
   },
@@ -57,17 +69,19 @@ export const articles = [
         readTime: "4 min read",
         link: "/blog/005",
         active: true,
+        date: "Feb 17, 2026",
+        dateTime: "2026-02-17",
+        tags: ["AI", "Learning", "Philosophy"],
       },
-      // {
-      //   id: "006",
-      //   emoji: "🤔",
-      //   title: "To be dermided",
-      //   description: "",
-      //   readTime: "4 min read",
-      //   link: "/blog/006",
-      //   active: true,
-      // },
     ]
-  } 
-]
- 
+  }
+];
+
+/** Get a single post by its link path (e.g. "/blog/002") */
+export function getPostByLink(link) {
+  for (const group of articles) {
+    const post = group.posts.find((p) => p.link === link);
+    if (post) return post;
+  }
+  return null;
+}

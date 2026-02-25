@@ -1,0 +1,10 @@
+.tag-list {
+  &__link {
+    color: inherit;
+    text-decoration: underline;
+
+    &:hover {
+      color: var(--text-primary);
+    }
+  }
+}
