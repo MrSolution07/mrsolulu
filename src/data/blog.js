@@ -85,7 +85,19 @@ export const articles = [
         dateTime: "2026-02-25",
         tags: ["Philosophy", "Science", "Physics"],
       },
-      
+      {
+        id: "008",
+        emoji: "🐛",
+        title: "A Bug Can Be a Feature",
+        description: "Embrace unexpected bugs but never ship broken features.",
+        readTime: "4 min read",
+        link: "/blog/008",
+        active: true,
+        date: "Mar 18, 2026",
+        dateTime: "2026-03-18",
+        tags: ["Programming", "Philosophy"],
+      },
+
     ]
   }
 ];
