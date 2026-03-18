@@ -8,7 +8,7 @@ import ArticleHeader from "../../components/ArticleHeader";
 // Data
 import { getPostByLink } from "../../data/blog";
 
-const postMeta = getPostByLink("/blog/007");
+const postMeta = getPostByLink("/blog/008");
 
 const Post = () => (
   <BlogPostLayout>
