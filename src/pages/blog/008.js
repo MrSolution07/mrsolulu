@@ -40,7 +40,7 @@ const Post = () => (
         <p>
           A bug becoming a feature is a story of adaptation. Not everything
           valuable is planned. Sometimes, unexpected behaviour reveals a better
-          way something users enjoy something that solves a problem
+          way. Something users enjoy, something that solves a problem
           differently or even something that sparks innovation.
         </p>
         <p>
