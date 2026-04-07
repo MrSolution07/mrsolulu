@@ -97,6 +97,18 @@ export const articles = [
         dateTime: "2026-03-18",
         tags: ["Programming", "Philosophy"],
       },
+      {
+        id: "009",
+        emoji: "🤔",
+        title: "",
+        description: "",
+        readTime: "",
+        link: "/blog/009",
+        active: true,
+        date: "April 07, 2026",
+        dateTime: "2026-04-07",
+        tags: ["AI", "Learning", "Philosophy"],
+      },
 
     ]
   }
