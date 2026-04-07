@@ -36,7 +36,7 @@ const Post = () => (
 
         <figure>
           <img
-            src="https://upload.wikimedia.org/wikipedia/commons/0/0c/James_Stockdale_Formal_Portrait.jpg"
+            src="https://upload.wikimedia.org/wikipedia/commons/f/f8/James_Stockdale_Formal_Portrait.jpg"
             alt="Formal portrait of Rear Admiral James B. Stockdale in full dress white uniform, circa 1979"
             decoding="async"
           />
