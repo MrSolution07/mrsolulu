@@ -99,15 +99,15 @@ export const articles = [
       },
       {
         id: "009",
-        emoji: "🤔",
-        title: "",
-        description: "",
-        readTime: "",
+        emoji: "🤞",
+        title: "The Paradox of Hope",
+        description: "Why too much optimism can quietly destroy your projects and what a war prisoner taught me about building software.",
+        readTime: "3 min read",
         link: "/blog/009",
         active: true,
         date: "April 07, 2026",
         dateTime: "2026-04-07",
-        tags: ["AI", "Learning", "Philosophy"],
+        tags: ["Software Development", "Learning", "Philosophy"],
       },
 
     ]
