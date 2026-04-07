@@ -33,7 +33,6 @@ const Post = () => (
         <p>
           I once came across the story of James Stockdale, a U.S. Navy officer captured during the Vietnam War.
         </p>
-
         <figure>
           <img
             src="https://upload.wikimedia.org/wikipedia/commons/f/f8/James_Stockdale_Formal_Portrait.jpg"
@@ -45,7 +44,6 @@ const Post = () => (
             <a href="https://commons.wikimedia.org/wiki/File:James_Stockdale_Formal_Portrait.jpg">public domain</a>.
           </figcaption>
         </figure>
-
         <p>
           He spent over seven years as a prisoner.
         </p>
@@ -257,7 +255,6 @@ const Post = () => (
 );
 
 export default Post;
-
 export const Head = () => (
   <title>
     {postMeta
