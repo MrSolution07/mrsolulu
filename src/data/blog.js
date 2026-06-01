@@ -109,6 +109,15 @@ export const articles = [
         dateTime: "2026-04-07",
         tags: ["Software Development", "Learning", "Philosophy"],
       },
+      {
+        id: "010",
+        emoji: "🤔",
+        title: "The Audacity of Wanting",
+        description: "Why we should embrace our desires and not be afraid to want what we want.",
+        readTime: "3 min read",
+        link: "/blog/010",
+        active: true,
+      },
 
     ]
   }
