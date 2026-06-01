@@ -111,13 +111,11 @@ export const articles = [
       },
       {
         id: "010",
-        emoji: "🤔",
         title: "The Audacity of Wanting",
-        description: "Why we should embrace our desires and not be afraid to want what we want.",
-        readTime: "3 min read",
-        link: "/blog/010",
-        active: true,
-      },
+        date: "01 June 2026",
+        dateTime: "2026-06-01",
+        tags: ["Philosophy", "Love", "Writing"]
+      }
 
     ]
   }
